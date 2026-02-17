@@ -7,14 +7,14 @@
 }
 main {
     flex: 2;
-    background-color: #1a2e2a;
+    background-color: #111111;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
 }
 aside {
     flex: 1;
-    background-color: #2d4a44;
+    background-color: #1A1A1A;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -27,6 +27,7 @@ main section {
     border: 1px dashed #bbb;
     border-radius: 5px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    color: #0B0B0B;
 }
 header {
     position: sticky;
@@ -43,10 +44,11 @@ main section:hover {
 body {
     font-family: "Times New Roman", Times, serif;
     line-height: 1.5;
-    color: #1e293b;
+    background-color: #0B0B0B;
+    color: #ffffff;
 }
 nav {
-    background-color: #2d4a44;
+    background-color: #111111;
     padding: 10px 0;
 }
 nav ul {
@@ -57,17 +59,17 @@ nav ul {
     margin: 0;
 }
 nav a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
 }
 nav a:hover {
-    color: #e67e22; 
+    color: #ffd700; 
 }
 footer {
-    background-color: #2d4a44;
-    color: white;
+    background-color: #0b0b0b;
+    color: #ffd700;
     text-align: center;
     padding: 30px;
     margin-top: 10px;
@@ -76,5 +78,17 @@ footer {
 }
 footer a {
     color: #e67e22;
+}
+table {
+   background-color: #ffffff;
+   color: #0b0b0b;
+   border-color: #e0e0e0;
+}
+thead {
+   background-color: #ffd700;
+   color: #0b0b0b;
+}
+tfoot {
+   background-color: #f5f5f5;
 }
 
