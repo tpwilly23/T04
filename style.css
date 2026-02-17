@@ -42,7 +42,7 @@ main section:hover {
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
 }
 body {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "'Montserrat', 'EB Garamond';
     line-height: 1.5;
     background-color: #0B0B0B;
     color: #ffffff;
