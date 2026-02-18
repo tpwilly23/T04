@@ -42,7 +42,7 @@ main section:hover {
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
 }
 body {
-    font-family: "'Montserrat', 'EB Garamond'";
+    font-family: 'Montserrat', 'EB Garamond', sans-serif;
     line-height: 1.5;
     background-color: #0B0B0B;
     color: #ffffff;
@@ -87,7 +87,7 @@ table {
 }
 thead {
    background-color: #a38014;
-   color: ##0B0B0B;
+   color: #0B0B0B;
 }
 tfoot {
    background-color: #f5f5f5;
