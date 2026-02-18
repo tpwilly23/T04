@@ -91,4 +91,10 @@ thead {
 tfoot {
    background-color: #f5f5f5;
 }
-
+blockquote {
+   margin: 20px;
+   padding-left: 15px;
+   border-left:5px solid #ffd700;
+   font-style:italic;
+   color: #ccc;
+}
